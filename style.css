@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    width: 100vw;
+    height: 25%;
+    background-color: #43766C;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#nav-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    color: white;
+    margin: 1% 10% 1% 5%;
+}
+
+ #nav-items ul { 
+   width: 40vw;
+    display: flex;
+    list-style: none;
+   
+ }
+
+#nav-items ul li{
+padding: 0 40px;}
+
+
+
+#nav-items ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;    }
+
+
+#nav-contact-button button{
+   height: 5vh;
+   width: 10vw;
+   border-radius: 13px ;
+   border: 0px transparent;
+   background-color: whitesmoke ;
+}
+
+#nav-contact-button button a{
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   font-size: 1.4em;
+   color: #43766C;
+}
+
+/* End of NAVBAR */
+
+.main-container{
+    height: 80vh;
+    width: 100vw;
+    background-color: antiquewhite ;
+    }
+
+    /* container#1 */
+
+ .main-container #container-1{
+    display: flex;
+    color: #b1331a ;
+ }
+
+ .main-container #container-1 #headpara-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+ }
+
+ .main-container #container-1 #headpara-container p{
+    padding: 0% 15% 0% 24%;
+    margin-top: 1%;
+    text-align: justify;
+ }
+
+ .main-container #container-1 #headpara-container h1{
+  font-size: 12em;   
+}
+
+ .main-container #container-1 #img-container img{
+    height: 36.5em;
+    margin-right: 5em;
+    filter: drop-shadow(10px 10px 10px  rgba(0,0,0,0.8));
+
+ }
+
+ .main-container #container-1 .ketchup-imgcontainer img{
+   position: absolute;
+   right: 77.5vw;
+   top: 5.8vh;
+   height: 50vh;
+   transform:rotate(100deg);
+   filter: drop-shadow(10px 10px 10px  rgba(0,0,0,0.3));
+
+ }
+ .main-container #container-1 #headpara-container button{
+   margin: 2em;
+   width: 15em;
+   height: 3em;
+   border-radius: 20px;
+   border: 0px transparent;
+   background-color: rgba(110, 90, 65, 0.999);
+   color: rgba(0, 255, 255, 0.347);
+   }
+
+   .main-container #container-1 #headpara-container button a{
+      text-decoration: none;
+      color: #fcfffe;
+      font-weight: bolder;
+      font-size: 20px;
+      }
+
+     /* container#2 */
+
+ .main-container #container-2{
+   display: flex;
+   flex-direction: row;
+   background-color: white; 
+   align-items: center;
+   margin: 0;
+   color: rgb(14, 12, 12);
+ }
+
+ .main-container #container-2 #food-container img{
+   height: 36.5em;
+   filter: drop-shadow(10px 10px 10px  rgba(0,0,0,0.8));
+
+ }
+
+ .main-container #container-2 #headparafood-container{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .main-container #container-2 #headparafood-container h1{
+  font-size: 8em;
+  color: rgb(7, 43, 7);
+ }
+
+ .main-container #container-2 #headparafood-container p{
+   text-align: justify;
+   margin-top: 1em;
+   margin-right: 10em;
+}
+
+.main-container #container-2 #headparafood-container button{
+margin: 2em;
+width: 15em;
+height: 3em;
+margin-left: 21em;
+border-radius: 20px;
+border: 0px transparent;
+background-color: bisque;
+color: rgba(0, 255, 255, 0.347);
+}
+
+.main-container #container-2 #headparafood-container button a{
+   text-decoration: none;
+   color: #43766C;
+   font-weight: bolder;
+   font-size: 20px;
+   }
+
+
+   /* Container-3 */
+
+.main-container #container-3{
+   background-color: rgba(238, 220, 197, 0.905);
+}
+
+.main-container #container-3 #headparacontainer-3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 15%;
+   text-align: justify;
+   column-gap: 10em;
+   color: #294f47f9;
+}
+
+.main-container #container-3  #headparacontainer-3 img{
+   filter: drop-shadow(10px 10px 10px  rgba(0,0,0,0.8));
+
+}
+
+.main-container #container-3 #headparacontainer-3 #headparaspecial  h1{
+   font-size: 2.4em;
+   font-family: Arial;
+}
+
+.main-container #container-3 #headparacontainer-3 #headparaspecial p{
+   margin-top: 1em;
+   font-size: 1em;
+}
+
+
+/* Container-4 */
+
+
+.main-container #container-4{
+   height: 40vh;
+   background-color: rgb(209, 206, 153);
+}
+
+.main-container #container-4 #getstarted-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 2em;
+}
+
+.main-container #container-4 #getstarted-container #headparagetstarted-container{
+   margin-right: 5em;
+   row-gap: 1.5em;
+   color: #2c455a;
+}
+
+.main-container #container-4 #getstarted-container #headparagetstarted-container h2{
+   font-family: Arial;
+   font-weight: 6em;
+}
+
+.main-container #container-4 #getstarted-container #searchcontainer label input{
+   height: 3em;
+   width: 30em;
+   border-radius: 10px;
+   border: 0px transparent;
+   text-align: center;
+}
+
+.main-container #container-4 #getstarted-container #getstartedimg-container img{
+   height: 15em;
+   margin: 2em 0;
+   filter: drop-shadow(10px 10px 10px  rgba(0,0,0,0.8));
+}
+
+.main-container #container-4 #getstarted-container #searchcontainer label input:active{
+   border: 0px transparent;
+}
+
+.main-container #container-4 #getstarted-container #searchcontainer label  i{
+height: 1em;
+color: white;
+}
+
+/* End of Container-4 */
+
+/* Start of footer */
+.main-container .footer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 30vh;
+   width: 100vw;
+   background-color: #113451;
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container .footer #footer-logo{
+   margin-left: 10vh;
+}
+
+.main-container .footer .mainfooteritems-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ column-gap: 40vh;
+}
+
+.main-container .footer .mainfooteritems-container #footer-items ul li {
+   margin-left: 30vh;
+   list-style-type: none;
+   line-height: 1.5em;
+
+
+}
+
+.main-container .footer .mainfooteritems-container #footeritems-2 ul li {
+   list-style-type: none;
+   line-height: 1.5em;
+
+
+}
+
+.main-container .footer .mainfooteritems-container #footeritems-3 ul li {
+   list-style-type: none;
+   line-height: 1.5em;
+}
+
+.main-container  .copyrightdiv{
+   background-color: #43766C;
+   height: 3vh;
+   color: white;
+   text-align: center;
+}
+
+/* End of main */
+      
+
+
+
+
+
+
+
+
+
